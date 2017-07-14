@@ -1,0 +1,26 @@
+# A-friendly-introduction-to-graph-theory
+some programmings in this book
+
+%using matlab
+%输入任意整数k
+%当k!大于90 输出k 否则再搞
+%预备：
+%输入k
+k = input('please enter the value of k');
+%计算k!
+sum = 1;
+for i = 1:k
+    sum = sum * i
+end
+disp(sum);
+%主体
+while sum <= 90
+    k = input('please enter the value of k');
+    sum = 1;
+ for i = 1:k
+    sum = sum * i
+ end
+end
+%收官
+disp(k);
+    
