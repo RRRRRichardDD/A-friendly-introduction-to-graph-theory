@@ -1,0 +1,21 @@
+%输入整数m和q  对所有满足1<=n<=m, 1<=r<=q 的 n和r 输出(n,r)
+m = input('please enter the value of m');
+q = input('please enter the value of q');
+a = zeros(1,2);
+for  n = 1:m
+    a(1) = n;
+    for r = 1:q
+        a(2) = r;
+        disp(a);
+    end
+end
+m = input('please enter the value of m');
+q = input('please enter the value of q');
+a = zeros(1,2);
+for  n = 1:m
+    a(1) = n;
+    for r = 1:q
+        a(2) = r;
+        disp(a);
+    end
+end
