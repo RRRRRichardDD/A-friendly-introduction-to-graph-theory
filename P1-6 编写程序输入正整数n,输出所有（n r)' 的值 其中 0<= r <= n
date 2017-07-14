@@ -1,0 +1,5 @@
+%编写程序输入正整数n,输出所有（n r)' 的值 其中 0<= r <= n
+n = input('please enter the value of n');
+for r = 0:n
+    com = factorial(n)/(factorial(r) * factorial(n-r))
+end
